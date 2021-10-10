@@ -141,7 +141,7 @@ public class MatrixFilter extends javax.swing.JFrame {
             }
         });
 
-        numActual.setText("Valor actual: ");
+        numActual.setText("Valor Umbral actual: ");
 
         javax.swing.GroupLayout panelMatrizLayout = new javax.swing.GroupLayout(panelMatriz);
         panelMatriz.setLayout(panelMatrizLayout);
@@ -156,7 +156,7 @@ public class MatrixFilter extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelMatrizLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(numActual, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(156, 156, 156))
+                .addGap(171, 171, 171))
         );
         panelMatrizLayout.setVerticalGroup(
             panelMatrizLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -255,11 +255,13 @@ public class MatrixFilter extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        panelMatriz.getAccessibleContext().setAccessibleName("Visualiza matriz");
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void barraStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_barraStateChanged
-        numActual.setText("Valor actual: "+barra.getValue());
+        numActual.setText("Valor Umbral actual: "+barra.getValue());
         showMatrix();
     }//GEN-LAST:event_barraStateChanged
 

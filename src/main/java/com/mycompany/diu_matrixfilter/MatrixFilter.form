@@ -67,6 +67,9 @@
           </Border>
         </Property>
       </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Visualiza matriz"/>
+      </AccessibilityProperties>
 
       <Layout>
         <DimensionLayout dim="0">
@@ -82,7 +85,7 @@
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="32767" attributes="0"/>
                   <Component id="numActual" min="-2" pref="140" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="156" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="171" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -130,7 +133,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="numActual">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Valor actual: "/>
+            <Property name="text" type="java.lang.String" value="Valor Umbral actual: "/>
           </Properties>
         </Component>
       </SubComponents>
