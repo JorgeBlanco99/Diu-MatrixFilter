@@ -23,7 +23,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.mycompany.diu.conversormonedas.Conversor</mainClass>
+                            <mainClass>com.mycompany.diu_matrixfilter.MatrixFilter</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
